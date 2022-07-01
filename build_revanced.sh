@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#F1R3W4LL404_Version
 VMG_VERSION="0.2.24.220220"
 
 declare -A artifacts
