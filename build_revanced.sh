@@ -6,7 +6,7 @@ declare -A artifacts
 
 artifacts["revanced-cli.jar"]="revanced/revanced-cli revanced-cli .jar"
 artifacts["revanced-integrations.apk"]="revanced/revanced-integrations app-release-unsigned .apk"
-artifacts["revanced-patches.jar"]="FirewallSH56/revanced-patches revanced-patches .jar"
+artifacts["revanced-patches.jar"]="FirewallSH56/YoutubeAdvanced-patches revanced-patches .jar"
 artifacts["apkeep"]="EFForg/apkeep apkeep-x86_64-unknown-linux-gnu"
 
 get_artifact_download_url () {
