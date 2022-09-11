@@ -30,7 +30,7 @@ if [ -f "com.zhiliaoapp.musically.apk" ]
 then
     echo "Building Non-root APK"
     java -jar revanced-cli.jar -m revanced-integrations.apk -b revanced-patches.jar  \
-                               -a com.zhiliaoapp.musically.apk.apk -o build/Tiktok-nonroot.apk
+                               -a com.zhiliaoapp.musically.apk -o build/Tiktok-nonroot.apk
 else
     echo "Cannot find Tiktok APK, skipping build"
 fi
